@@ -205,9 +205,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgS-Ie-VLC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgS-Ie-VLC">
                                 <rect key="frame" x="124" y="572" width="136" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.85281795505339719" green="0.17558016721687594" blue="0.17558016721687594" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="INVIA">
                                     <color key="titleColor" red="0.95686918499999996" green="0.95685130360000004" blue="0.95686334370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -223,10 +222,13 @@
                             <constraint firstItem="orR-I8-4f0" firstAttribute="leading" secondItem="9VW-5v-aJ2" secondAttribute="leading" constant="43" id="7YZ-8h-hD1"/>
                             <constraint firstItem="9VW-5v-aJ2" firstAttribute="trailing" secondItem="orR-I8-4f0" secondAttribute="trailing" constant="192" id="860-Yn-qjc"/>
                             <constraint firstItem="XkZ-9v-0iU" firstAttribute="top" secondItem="uoh-f1-Rld" secondAttribute="bottom" constant="13" id="9YD-wT-92d"/>
+                            <constraint firstItem="9VW-5v-aJ2" firstAttribute="trailing" secondItem="PgS-Ie-VLC" secondAttribute="trailing" constant="115" id="9uB-GD-cNM"/>
                             <constraint firstItem="9VW-5v-aJ2" firstAttribute="bottom" secondItem="pe5-X2-AOe" secondAttribute="bottom" constant="67" id="C3c-tZ-NX0"/>
+                            <constraint firstItem="PgS-Ie-VLC" firstAttribute="top" secondItem="pe5-X2-AOe" secondAttribute="bottom" constant="21" id="CLd-Tr-Vap"/>
                             <constraint firstItem="uoh-f1-Rld" firstAttribute="leading" secondItem="9VW-5v-aJ2" secondAttribute="leading" constant="43" id="DSK-Qy-44b"/>
                             <constraint firstItem="dED-H8-xLW" firstAttribute="leading" secondItem="uoh-f1-Rld" secondAttribute="leading" id="K3M-7l-Lyr"/>
                             <constraint firstItem="XkZ-9v-0iU" firstAttribute="top" secondItem="uoh-f1-Rld" secondAttribute="bottom" constant="13" id="Q6Q-ia-OMR"/>
+                            <constraint firstItem="9VW-5v-aJ2" firstAttribute="bottom" secondItem="PgS-Ie-VLC" secondAttribute="bottom" constant="16" id="QCi-gc-FSg"/>
                             <constraint firstItem="GHc-OL-FRW" firstAttribute="top" secondItem="h5O-b6-Kru" secondAttribute="top" constant="-6" id="UlG-C2-KRI"/>
                             <constraint firstItem="orR-I8-4f0" firstAttribute="top" secondItem="XkZ-9v-0iU" secondAttribute="bottom" constant="28" id="WLO-ha-mlD"/>
                             <constraint firstItem="dED-H8-xLW" firstAttribute="top" secondItem="GHc-OL-FRW" secondAttribute="bottom" constant="8" symbolic="YES" id="WrM-0J-5qw"/>
@@ -235,6 +237,7 @@
                             <constraint firstAttribute="trailing" secondItem="GHc-OL-FRW" secondAttribute="trailing" constant="-3" id="Zt0-EW-NKG"/>
                             <constraint firstItem="YdI-eB-44M" firstAttribute="top" secondItem="9VW-5v-aJ2" secondAttribute="top" constant="34" id="b2m-Ch-n2P"/>
                             <constraint firstItem="9VW-5v-aJ2" firstAttribute="trailing" secondItem="uoh-f1-Rld" secondAttribute="trailing" constant="47" id="bV5-O5-tkt"/>
+                            <constraint firstItem="PgS-Ie-VLC" firstAttribute="leading" secondItem="9VW-5v-aJ2" secondAttribute="leading" constant="124" id="bcV-b1-crF"/>
                             <constraint firstItem="YdI-eB-44M" firstAttribute="leading" secondItem="9VW-5v-aJ2" secondAttribute="leading" constant="133" id="deE-it-tIl"/>
                             <constraint firstItem="GHc-OL-FRW" firstAttribute="top" secondItem="h5O-b6-Kru" secondAttribute="top" constant="-6" id="eeR-36-3Fy"/>
                             <constraint firstItem="dED-H8-xLW" firstAttribute="leading" secondItem="E9N-qX-G8P" secondAttribute="leading" id="fdG-iO-VmM"/>
