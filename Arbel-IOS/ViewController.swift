@@ -9,6 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var BottonDettaglio: UITextField?;
+    
+   
+    
+    @IBAction func BottonOggetto(_ sender: UITextField) {
+    }
+    
+    @IBAction func Searchbar(_ sender:UISearchBar){
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
