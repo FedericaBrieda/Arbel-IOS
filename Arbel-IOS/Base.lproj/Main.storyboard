@@ -71,25 +71,25 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f12-R4-X46">
                                 <rect key="frame" x="46" y="287" width="303" height="55"/>
-                                <state key="normal" title="Button" image="botton corsi">
+                                <state key="normal" title="Button" image="button corsi">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFS-IL-PYs">
                                 <rect key="frame" x="46" y="356" width="303" height="55"/>
-                                <state key="normal" title="Button" image="botton corsi">
+                                <state key="normal" title="Button" image="button corsi">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO6-4f-LTo">
                                 <rect key="frame" x="46" y="426" width="303" height="55"/>
-                                <state key="normal" title="Button" image="botton corsi">
+                                <state key="normal" title="Button" image="button corsi">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wn1-LP-JL5">
                                 <rect key="frame" x="46" y="499" width="303" height="55"/>
-                                <state key="normal" title="Button" image="botton corsi">
+                                <state key="normal" title="Button" image="button corsi">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -170,7 +170,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Dettaglio" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="botton corsi" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-f1-Rld">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Dettaglio" textAlignment="natural" minimumFontSize="17" background="botton corsi" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-f1-Rld">
                                 <rect key="frame" x="43" y="228" width="285" height="30"/>
                                 <color key="backgroundColor" red="0.95686918497085571" green="0.9568513035774231" blue="0.95686334371566772" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -180,7 +180,7 @@
                                     <action selector="BottonDettaglio:" destination="qar-9U-DEq" eventType="editingDidEnd" id="IS3-5e-VvQ"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Oggetto" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XkZ-9v-0iU">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Oggetto" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XkZ-9v-0iU">
                                 <rect key="frame" x="43" y="271" width="285" height="30"/>
                                 <color key="backgroundColor" red="0.95686918497085571" green="0.9568513035774231" blue="0.95686334371566772" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -197,12 +197,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Messaggio" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pe5-X2-AOe">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pe5-X2-AOe">
                                 <rect key="frame" x="43" y="369" width="285" height="182"/>
                                 <color key="backgroundColor" red="0.95686918497085571" green="0.9568513035774231" blue="0.95686334371566772" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgS-Ie-VLC">
@@ -267,8 +265,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg barra" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-ak-FiX">
                                 <rect key="frame" x="0.0" y="20" width="376" height="47"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="xSh-Vk-2XA">
-                                <rect key="frame" x="33" y="365" width="326" height="249"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="xSh-Vk-2XA">
+                                <rect key="frame" x="33" y="369" width="326" height="249"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALENDARIO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONF-qh-cQS">
                                 <rect key="frame" x="140" y="35" width="112" height="21"/>
@@ -276,9 +274,8 @@
                                 <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iqw-8l-GQJ">
-                                <rect key="frame" x="49" y="387" width="293" height="227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iqw-8l-GQJ">
+                                <rect key="frame" x="42" y="384" width="293" height="233.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -287,8 +284,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Iqw-8l-GQJ" firstAttribute="leading" secondItem="LqI-3l-KJt" secondAttribute="leading" constant="49" id="6qh-em-KR2"/>
+                            <constraint firstItem="LqI-3l-KJt" firstAttribute="trailing" secondItem="Iqw-8l-GQJ" secondAttribute="trailing" constant="33" id="7vx-DZ-jPM"/>
                             <constraint firstItem="xSh-Vk-2XA" firstAttribute="top" secondItem="ONF-qh-cQS" secondAttribute="bottom" constant="309" id="A1D-qM-Pa7"/>
+                            <constraint firstItem="Iqw-8l-GQJ" firstAttribute="top" secondItem="aYu-ak-FiX" secondAttribute="bottom" constant="320" id="COv-la-xyu"/>
                             <constraint firstItem="ONF-qh-cQS" firstAttribute="leading" secondItem="LqI-3l-KJt" secondAttribute="leading" constant="140" id="CxW-Pa-Vcf"/>
+                            <constraint firstAttribute="bottom" secondItem="Iqw-8l-GQJ" secondAttribute="bottom" constant="46.5" id="Kl0-OE-6XE"/>
                             <constraint firstAttribute="trailing" secondItem="aYu-ak-FiX" secondAttribute="trailing" constant="-1" id="LQn-XU-nrm"/>
                             <constraint firstItem="aYu-ak-FiX" firstAttribute="leading" secondItem="LqI-3l-KJt" secondAttribute="leading" id="Ldg-hN-d2B"/>
                             <constraint firstItem="ONF-qh-cQS" firstAttribute="top" secondItem="LqI-3l-KJt" secondAttribute="top" constant="15" id="MnM-4X-3pu"/>
@@ -351,12 +352,15 @@
                             <constraint firstItem="Ysc-LE-hVk" firstAttribute="leading" secondItem="0eR-Ef-ssk" secondAttribute="leading" constant="45" id="Ilq-UV-NZt"/>
                             <constraint firstItem="lWu-Uf-848" firstAttribute="leading" secondItem="0eR-Ef-ssk" secondAttribute="leading" id="MEt-og-ifW"/>
                             <constraint firstItem="0eR-Ef-ssk" firstAttribute="trailing" secondItem="Ysc-LE-hVk" secondAttribute="trailing" constant="46" id="OPD-DA-2dy"/>
+                            <constraint firstItem="lWu-Uf-848" firstAttribute="leading" secondItem="0eR-Ef-ssk" secondAttribute="leading" id="POw-Yh-pT2"/>
                             <constraint firstItem="lWu-Uf-848" firstAttribute="top" secondItem="9mV-Xo-nMB" secondAttribute="top" constant="-6" id="RUS-yl-IfL"/>
                             <constraint firstItem="Ysc-LE-hVk" firstAttribute="top" secondItem="D9H-R7-Hdb" secondAttribute="bottom" constant="37.5" id="TSL-7L-shh"/>
                             <constraint firstItem="lWu-Uf-848" firstAttribute="top" secondItem="9mV-Xo-nMB" secondAttribute="top" constant="-6" id="cTy-gV-Krh"/>
                             <constraint firstItem="lWu-Uf-848" firstAttribute="trailing" secondItem="0eR-Ef-ssk" secondAttribute="trailing" id="gCn-Cl-T87"/>
                             <constraint firstItem="D9H-R7-Hdb" firstAttribute="leading" secondItem="0eR-Ef-ssk" secondAttribute="leading" constant="147" id="ikn-dX-x7a"/>
                             <constraint firstItem="0eR-Ef-ssk" firstAttribute="bottom" secondItem="Ysc-LE-hVk" secondAttribute="bottom" constant="446" id="jGh-D3-Vl9"/>
+                            <constraint firstItem="lWu-Uf-848" firstAttribute="top" secondItem="9mV-Xo-nMB" secondAttribute="top" constant="-6" id="l7L-EC-enE"/>
+                            <constraint firstItem="lWu-Uf-848" firstAttribute="trailing" secondItem="0eR-Ef-ssk" secondAttribute="trailing" id="tDL-O7-ZDd"/>
                             <constraint firstItem="0eR-Ef-ssk" firstAttribute="trailing" secondItem="D9H-R7-Hdb" secondAttribute="trailing" constant="159" id="tlN-sA-b1K"/>
                             <constraint firstItem="lWu-Uf-848" firstAttribute="leading" secondItem="0eR-Ef-ssk" secondAttribute="leading" id="yF0-Pl-2wh"/>
                         </constraints>
@@ -408,6 +412,7 @@
         <image name="background1" width="350" height="249"/>
         <image name="bg barra" width="375" height="47"/>
         <image name="botton corsi" width="308" height="55"/>
+        <image name="button corsi" width="308" height="55"/>
     </resources>
     <color key="tintColor" red="1" green="0.28673213427827537" blue="0.22068471563571013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

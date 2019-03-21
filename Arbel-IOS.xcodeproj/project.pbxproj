@@ -10,7 +10,6 @@
 		044CB2F92237CBBD00F0A410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CB2F82237CBBD00F0A410 /* AppDelegate.swift */; };
 		044CB2FB2237CBBD00F0A410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CB2FA2237CBBD00F0A410 /* ViewController.swift */; };
 		044CB2FE2237CBBD00F0A410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CB2FC2237CBBD00F0A410 /* Main.storyboard */; };
-		044CB3002237CBBF00F0A410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CB2FF2237CBBF00F0A410 /* Assets.xcassets */; };
 		044CB3032237CBBF00F0A410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CB3012237CBBF00F0A410 /* LaunchScreen.storyboard */; };
 		044CB30E2237CBBF00F0A410 /* Arbel_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CB30D2237CBBF00F0A410 /* Arbel_IOSTests.swift */; };
 		044CB3192237CBBF00F0A410 /* Arbel_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CB3182237CBBF00F0A410 /* Arbel_IOSUITests.swift */; };
@@ -44,7 +43,6 @@
 		044CB2F82237CBBD00F0A410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		044CB2FA2237CBBD00F0A410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		044CB2FD2237CBBD00F0A410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		044CB2FF2237CBBF00F0A410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044CB3022237CBBF00F0A410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044CB3042237CBBF00F0A410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044CB3092237CBBF00F0A410 /* Arbel-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arbel-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +112,6 @@
 				044CB2FA2237CBBD00F0A410 /* ViewController.swift */,
 				046E90C8224040FF00C9BC16 /* TabarController.swift */,
 				044CB2FC2237CBBD00F0A410 /* Main.storyboard */,
-				044CB2FF2237CBBF00F0A410 /* Assets.xcassets */,
 				044CB3012237CBBF00F0A410 /* LaunchScreen.storyboard */,
 				044CB3042237CBBF00F0A410 /* Info.plist */,
 				046E90CC22405ACC00C9BC16 /* SecondController.swift */,
@@ -248,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CB3032237CBBF00F0A410 /* LaunchScreen.storyboard in Resources */,
-				044CB3002237CBBF00F0A410 /* Assets.xcassets in Resources */,
 				044CB2FE2237CBBD00F0A410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
